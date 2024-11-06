@@ -1,8 +1,16 @@
 // components/Row.tsx
 import React from "react";
 
-const Row: React.FC = () => {
-  return <div className="flex-grow border-b border-gray-700 w-full"></div>;
+interface RowProps {
+  children?: React.ReactNode;
+}
+
+const Row: React.FC<RowProps> = ({ children }) => {
+  return (
+    <div className="flex items-center justify-center flex-grow w-full border-b border-gray-700">
+      {children}
+    </div>
+  );
 };
 
 export default Row;
