@@ -9,24 +9,6 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
-      href: "https://portal.thirdweb.com/",
-      target: "_blank",
-      rel: "noopener noreferrer",
-    },
-    {
-      label: "Pricing",
-      href: "https://thirdweb.com/pricing",
-      target: "_blank",
-      rel: "noopener noreferrer",
-    },
-    {
-      label: "Blog",
-      href: "https://blog.thirdweb.com/guides/",
-      target: "_blank",
-      rel: "noopener noreferrer",
-    },
-    {
       label: "About",
       href: "https://thirdweb.com/mission",
       target: "_blank",
