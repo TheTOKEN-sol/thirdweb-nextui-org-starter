@@ -14,7 +14,7 @@ git clone https://github.com/thirdweb-example/thirdweb-nextui-org-starter.git
 ### 2. Set up environment variables
 Create a file called `.env.local` (at the root level of your project) with the following content:
 ```
-NEXT_PUBLIC_TEMPLATE_CLIENT_ID="<your-thirdweb-client-id"
+NEXT_PUBLIC_TEMPLATE_CLIENT_ID="/"
 ```
 
 To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client).

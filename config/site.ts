@@ -9,8 +9,8 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "About",
-      href: "https://thirdweb.com/mission",
+      label: "Ecosystem",
+      href: "https://myevm.casa",
       target: "_blank",
       rel: "noopener noreferrer",
     },
